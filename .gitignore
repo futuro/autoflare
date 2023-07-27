@@ -19,5 +19,12 @@ pom.xml.asc
 .hgignore
 .hg/
 /.cpcache/
-/resources/public/js/main/cljs-runtime/*
 /resources/public/js/
+
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
